@@ -73,7 +73,7 @@ const Hero: React.FC = () => {
               </h2>
               
               <p className="text-lg text-gray-600 dark:text-gray-400 max-w-2xl">
-                Passionate about building robust server-side applications and solve real time problems with Code ✌️.
+                Passionate about building robust server side applications and solve real time problems with Code ✌️.
               </p>
             </div>
 
