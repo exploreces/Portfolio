@@ -18,8 +18,8 @@ const Projects: React.FC = () => {
             'MySQL',
             'Microservices'
           ],
-          liveUrl: '#', // replace with actual if hosted
-          githubUrl: '#', // replace with GitHub repo URL
+          liveUrl: 'https://github.com/exploreces/Microservice_Architecture', // replace with actual if hosted
+          githubUrl: 'https://github.com/exploreces/Microservice_Architecture', // replace with GitHub repo URL
           featured: true,
           status: 'Completed',
           category: 'Backend'
@@ -29,8 +29,8 @@ const Projects: React.FC = () => {
           description: 'Full-stack mental health app offering anxiety and depression assessments based on GAD-7 and PHQ-9 assessments, AI-driven customized strategy recommendations, secure volunteer communication, and geo-based facility discovery using Google Maps integration.',
           image: 'https://images.pexels.com/photos/2938278/pexels-photo-2938278.jpeg?auto=compress&cs=tinysrgb&w=600',
           technologies: ['React', 'JavaScript', 'Spring Boot', 'MongoDB', 'AI Recommendation Engine', 'Google Maps API'],
-          liveUrl: '#',
-          githubUrl: '#',
+          liveUrl: 'https://github.com/exploreces/MindEase',
+          githubUrl: 'https://github.com/exploreces/MindEase',
           featured: false,
           status: 'Active'
         },
@@ -46,8 +46,8 @@ const Projects: React.FC = () => {
         'React',
         'JavaScript'
       ],
-      liveUrl: '#',
-      githubUrl: '#',
+      liveUrl: 'https://github.com/exploreces/CarrerExploraApp',
+      githubUrl: 'https://github.com/exploreces/CarrerExploraApp',
       featured: true,
       status: 'Completed'
     },
@@ -64,8 +64,8 @@ const Projects: React.FC = () => {
         'Docker',
         'Kubernetes'
       ],
-      liveUrl: '#',
-      githubUrl: '#',
+      liveUrl: 'https://github.com/exploreces/RestaurantApplication',
+      githubUrl: 'https://github.com/exploreces/RestaurantApplication',
       featured: true,
       status: 'Production'
     },
@@ -74,8 +74,8 @@ const Projects: React.FC = () => {
       description: 'Backend payroll system built with Spring Boot and MySQL. Implements role-based salary computation, tax adjustment logic, and adheres to SOLID principles and design patterns for scalable employee management.',
       image: 'https://images.pexels.com/photos/4386324/pexels-photo-4386324.jpeg?auto=compress&cs=tinysrgb&w=600',
       technologies: ['Java', 'Spring Boot', 'MySQL', 'REST API', 'SOLID Principles'],
-      liveUrl: '#',
-      githubUrl: '#',
+      liveUrl: 'https://github.com/exploreces/PayrollManagement',
+      githubUrl: 'https://github.com/exploreces/PayrollManagement',
       featured: false,
       status: 'Completed'
     },
@@ -84,8 +84,8 @@ const Projects: React.FC = () => {
       description: 'Analyzed and compared multiple ML models (SVM, Random Forest, LSTM) for weather prediction using Kaggle datasets. Applied SMOTE for data balancing and improved classification of minority weather classes.',
       image: 'https://images.pexels.com/photos/6801648/pexels-photo-6801648.jpeg?auto=compress&cs=tinysrgb&w=600',
       technologies: ['Python', 'NumPy', 'Scikit-learn', 'SMOTE', 'LSTM', 'SVM', 'Random Forest'],
-      liveUrl: '#',
-      githubUrl: '#',
+      liveUrl: 'https://github.com/exploreces/Weather-detection',
+      githubUrl: 'https://github.com/exploreces/Weather-detection',
       featured: false,
       status: 'Completed'
     }
