@@ -8,7 +8,7 @@ const Education: React.FC = () => {
       degree: 'Bachelor of Computer Science',
       institution: 'Siksha O Anusandhan',
       year: '2021 - 2025',
-      grade: 'CGPA: 9.56/10',
+      grade: 'CGPA: 9.6/10',
       location: 'Odisha, Bhubaneswar',
       icon: GraduationCap,
       color: 'from-blue-500 to-purple-500',
