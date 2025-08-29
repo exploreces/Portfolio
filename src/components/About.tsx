@@ -1,12 +1,12 @@
 import React from 'react';
-import { Server, Database, Code, Layers, Globe, Cloud, GitBranch, Settings, FileText, Palette } from 'lucide-react';
+import { Server, DatabaseZap,Database, Code, Layers, Globe, Cloud, GitBranch, Settings, FileText, Palette } from 'lucide-react';
 
 const About: React.FC = () => {
   const techStack = [
     { name: 'Java', icon: Code, color: 'text-red-600', bg: 'bg-gradient-to-br from-red-100 to-red-200 dark:from-red-900/30 dark:to-red-800/30' },
     { name: 'Spring Boot', icon: Layers, color: 'text-green-600', bg: 'bg-gradient-to-br from-green-100 to-green-200 dark:from-green-900/30 dark:to-green-800/30' },
     { name: 'MySQL', icon: Database, color: 'text-blue-600', bg: 'bg-gradient-to-br from-blue-100 to-blue-200 dark:from-blue-900/30 dark:to-blue-800/30' },
-    { name: 'Redis', icon: Database, color: 'text-purple-600', bg: 'bg-gradient-to-br from-purple-100 to-purple-200 dark:from-purple-900/30 dark:to-purple-800/30' },
+    { name: 'Redis', icon: DatabaseZap, color: 'text-purple-600', bg: 'bg-gradient-to-br from-purple-100 to-purple-200 dark:from-purple-900/30 dark:to-purple-800/30' },
     { name: 'Microservices', icon: Server, color: 'text-teal-600', bg: 'bg-gradient-to-br from-teal-100 to-teal-200 dark:from-teal-900/30 dark:to-teal-800/30' },
     { name: 'HTML', icon: Globe, color: 'text-orange-600', bg: 'bg-gradient-to-br from-orange-100 to-orange-200 dark:from-orange-900/30 dark:to-orange-800/30' },
     { name: 'CSS', icon: Palette, color: 'text-pink-600', bg: 'bg-gradient-to-br from-pink-100 to-pink-200 dark:from-pink-900/30 dark:to-pink-800/30' },
